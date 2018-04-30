@@ -1,0 +1,21 @@
+header {
+  height: 990px; }
+
+.logo {
+  margin-top: 46px; }
+  .logo h1 {
+    margin-left: 10px; }
+  .logo img {
+    height: 29px; }
+
+body {
+  background-color: #fff; }
+
+header {
+  background-color: #00a3e4; }
+
+.logo h1 {
+  color: #fff;
+  font-family: "Asap", sans-serif;
+  font-size: 26px;
+  font-style: italic; }

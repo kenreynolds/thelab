@@ -1,0 +1,25 @@
+{
+  "name": "thelab",
+  "version": "1.0.0",
+  "description": "Portfolio project showcasing my ability to translate PSD designs into HTML5 and CSS3.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenreynolds/thelab.git"
+  },
+  "author": "Ken Reynolds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenreynolds/thelab/issues"
+  },
+  "homepage": "https://github.com/kenreynolds/thelab#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "http-server": "^0.11.1"
+  }
+}
