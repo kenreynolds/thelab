@@ -53,12 +53,36 @@ header {
       .services .services__descriptions .col-4 .title {
         margin-bottom: 0; }
 
+.testimonials {
+  margin-bottom: 150px; }
+  .testimonials .section-title,
+  .testimonials .title-description {
+    margin-bottom: 2rem; }
+  .testimonials .testimonial__illustration {
+    margin-top: 53px; }
+  .testimonials .testimonial {
+    height: 222px;
+    margin-bottom: 18px;
+    padding: 39px 36px;
+    position: relative;
+    width: 490px; }
+  .testimonials .user-icon {
+    bottom: -50px;
+    position: absolute;
+    right: -50px; }
+  .testimonials .user-link {
+    margin-left: 36px; }
+
 body {
   background-color: #fff;
   font-family: "Asap", sans-serif; }
 
 header {
   background-color: #00a3e4; }
+
+.section-title {
+  font-size: 55px;
+  font-weight: bold; }
 
 .logo h1 {
   color: #fff;
@@ -94,3 +118,14 @@ header {
       font-weight: bold; }
     .services .services__descriptions .description-text {
       font-size: 18px; }
+
+.testimonials .testimonial {
+  background-color: #ecf0f1; }
+  .testimonials .testimonial .testimonial__text {
+    color: #828485;
+    font-size: 18px;
+    font-style: italic; }
+
+.testimonials .user-link {
+  color: #00a3e4;
+  text-decoration: none; }
