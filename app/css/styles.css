@@ -1,5 +1,40 @@
 header {
-  height: 788px; }
+  height: 788px;
+  position: relative; }
+  header .header-image {
+    height: 1338px;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 0; }
+
+footer {
+  height: 245px;
+  padding-top: 75px; }
+  footer .contact-info {
+    margin-bottom: 1rem; }
+    footer .contact-info .col-4 {
+      justify-content: center; }
+    footer .contact-info .fa-address-card,
+    footer .contact-info .fa-map-marker-alt,
+    footer .contact-info .fa-skype {
+      margin-right: 24px; }
+  footer .contact-info__details .col-4 {
+    justify-content: center; }
+  footer .contact-info__details .email-details {
+    flex-direction: column; }
+    footer .contact-info__details .email-details p {
+      margin-bottom: .5rem;
+      margin-left: 83px; }
+  footer .contact-info__details .location-details p {
+    margin-left: 119px; }
+  footer .contact-info__details .phone-details p {
+    margin-left: 20px; }
+
+.download {
+  height: 60px;
+  margin-top: 10px;
+  width: 200px; }
 
 .logo {
   margin: 46px 0 75px 0; }
@@ -17,10 +52,6 @@ header {
     z-index: 10; }
   .hero .welcome-text {
     margin-top: 188px; }
-    .hero .welcome-text .welcome-button {
-      height: 60px;
-      margin-top: 10px;
-      width: 200px; }
 
 .social-nav .social-info {
   align-items: center;
@@ -33,7 +64,9 @@ header {
 .services {
   height: 490px;
   margin-bottom: 150px;
-  padding-top: 103px; }
+  padding-top: 103px;
+  position: relative;
+  z-index: 10; }
   .services .col-4 {
     justify-content: center; }
   .services .icon--bulb img {
@@ -73,12 +106,69 @@ header {
   .testimonials .user-link {
     margin-left: 36px; }
 
+.call-to-action {
+  margin-bottom: 234px; }
+  .call-to-action .section-title {
+    margin-top: 84px; }
+  .call-to-action .call-to-action__illustration {
+    position: relative; }
+    .call-to-action .call-to-action__illustration img {
+      position: absolute;
+      right: -25px; }
+
+.dream-team {
+  padding-top: 141px; }
+  .dream-team .team-member__icons {
+    margin-bottom: 24px; }
+    .dream-team .team-member__icons .team-member__icon {
+      justify-content: center; }
+  .dream-team .team-member__info .col-4 {
+    text-align: center; }
+  .dream-team .team-member__info .team-member__name {
+    margin-bottom: 0; }
+  .dream-team .team-member__bio {
+    padding-bottom: 147px; }
+    .dream-team .team-member__bio .bio {
+      padding: 55px 74px 0 74px;
+      text-align: center; }
+
+.message {
+  height: 150px;
+  padding-top: 61px;
+  text-align: center; }
+  .message .fa-dribbble {
+    margin-left: 35px; }
+
 body {
   background-color: #fff;
   font-family: "Asap", sans-serif; }
 
 header {
   background-color: #00a3e4; }
+
+footer {
+  background-color: #d8af0c;
+  color: #fff; }
+  footer .contact-info .email,
+  footer .contact-info .location,
+  footer .contact-info .phone {
+    font-size: 20px; }
+    footer .contact-info .email .fa-address-card,
+    footer .contact-info .email .fa-map-marker-alt,
+    footer .contact-info .email .fa-skype,
+    footer .contact-info .location .fa-address-card,
+    footer .contact-info .location .fa-map-marker-alt,
+    footer .contact-info .location .fa-skype,
+    footer .contact-info .phone .fa-address-card,
+    footer .contact-info .phone .fa-map-marker-alt,
+    footer .contact-info .phone .fa-skype {
+      font-size: 30px; }
+
+.download {
+  background-color: #49b9e6;
+  color: #fff; }
+  .download:hover {
+    background-color: #0084b8; }
 
 .section-title {
   font-size: 55px;
@@ -97,11 +187,6 @@ header {
     line-height: 1.25em; }
   .hero .welcome-text .attribution {
     font-size: 18px; }
-  .hero .welcome-text .welcome-button {
-    background-color: #49b9e6;
-    color: #fff; }
-    .hero .welcome-text .welcome-button:hover {
-      background-color: #0084b8; }
 
 .social-nav {
   background-color: #0093ce;
@@ -127,5 +212,25 @@ header {
     font-style: italic; }
 
 .testimonials .user-link {
-  color: #00a3e4;
-  text-decoration: none; }
+  color: #00a3e4; }
+
+.dream-team {
+  background-color: #ecf0f1; }
+  .dream-team .team-member__info .team-member__name {
+    font-size: 35px;
+    font-weight: bold; }
+  .dream-team .team-member__info .team-member__nickname {
+    color: #828485;
+    font-size: 25px;
+    font-style: italic; }
+  .dream-team .team-member__bio .bio {
+    color: #828485;
+    font-size: 18px; }
+    .dream-team .team-member__bio .bio .bio-link {
+      color: #00a3e4;
+      font-size: 18px; }
+
+.message {
+  background-color: #f1c40f;
+  color: #fff;
+  font-size: 30px; }

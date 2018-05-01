@@ -3,6 +3,54 @@
 
 header
     height: 788px
+    position: relative
+
+    .header-image
+        height: 1338px
+        justify-content: center
+        position: absolute
+        width: 100%
+        z-index: 0
+
+footer
+    height: 245px
+    padding-top: 75px
+
+    .contact-info
+        margin-bottom: 1rem
+        
+        .col-4
+            justify-content: center
+
+        .fa-address-card,
+        .fa-map-marker-alt,
+        .fa-skype
+            margin-right: 24px
+
+    .contact-info__details
+
+        .col-4
+            justify-content: center
+
+        .email-details
+            flex-direction: column
+
+            p
+                margin-bottom: .5rem
+                margin-left: 83px
+
+        .location-details
+            p
+                margin-left: 119px
+
+        .phone-details
+            p
+                margin-left: 20px
+
+.download
+    height: 60px
+    margin-top: 10px
+    width: 200px
 
 .logo
     margin: 46px 0 75px 0
@@ -25,11 +73,6 @@ header
     .welcome-text
         margin-top: 188px
 
-        .welcome-button
-            height: 60px
-            margin-top: 10px
-            width: 200px
-
 .social-nav
 
     .social-info
@@ -46,6 +89,8 @@ header
     height: 490px
     margin-bottom: 150px
     padding-top: 103px
+    position: relative
+    z-index: 10
 
     .col-4
         justify-content: center
@@ -99,3 +144,48 @@ header
 
     .user-link
         margin-left: 36px
+
+.call-to-action
+    margin-bottom: 234px
+
+    .section-title
+        margin-top: 84px
+
+    .call-to-action__illustration
+        position: relative
+
+        img
+            position: absolute
+            right: -25px
+
+.dream-team
+    padding-top: 141px
+
+    .team-member__icons
+        margin-bottom: 24px
+
+        .team-member__icon
+            justify-content: center
+
+    .team-member__info
+
+        .col-4
+            text-align: center
+
+        .team-member__name
+            margin-bottom: 0
+
+    .team-member__bio
+        padding-bottom: 147px
+
+        .bio
+            padding: 55px 74px 0 74px
+            text-align: center
+
+.message
+    height: 150px
+    padding-top: 61px
+    text-align: center
+
+    .fa-dribbble
+        margin-left: 35px
