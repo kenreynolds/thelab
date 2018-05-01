@@ -25,16 +25,43 @@ header {
 .social-nav .social-info {
   align-items: center;
   height: 200px; }
+  .social-nav .social-info .dribbble {
+    margin-right: 42px; }
+  .social-nav .social-info .facebook {
+    margin-right: 12px; }
+
+.services {
+  height: 490px;
+  margin-bottom: 150px;
+  padding-top: 103px; }
+  .services .col-4 {
+    justify-content: center; }
+  .services .icon--bulb img {
+    height: 157px;
+    margin-top: -17px;
+    width: 140px; }
+  .services .icon--spaceship img {
+    height: 140px;
+    width: 140px; }
+  .services .icon--touch img {
+    height: 137px;
+    width: 135px; }
+  .services .services__descriptions {
+    padding-top: 32px; }
+    .services .services__descriptions .col-4 {
+      text-align: center; }
+      .services .services__descriptions .col-4 .title {
+        margin-bottom: 0; }
 
 body {
-  background-color: #fff; }
+  background-color: #fff;
+  font-family: "Asap", sans-serif; }
 
 header {
   background-color: #00a3e4; }
 
 .logo h1 {
   color: #fff;
-  font-family: "Asap", sans-serif;
   font-size: 25px;
   font-style: italic; }
 
@@ -42,6 +69,7 @@ header {
   color: #fff; }
   .hero .welcome-text .title {
     font-size: 55px;
+    font-weight: bold;
     line-height: 1.25em; }
   .hero .welcome-text .attribution {
     font-size: 18px; }
@@ -56,3 +84,13 @@ header {
   color: #fff; }
   .social-nav .dribbble {
     font-size: 15px; }
+
+.services {
+  background-color: #0084b8; }
+  .services .services__descriptions {
+    color: #fff; }
+    .services .services__descriptions .title {
+      font-size: 55px;
+      font-weight: bold; }
+    .services .services__descriptions .description-text {
+      font-size: 18px; }
