@@ -1,12 +1,30 @@
 header {
-  height: 990px; }
+  height: 788px; }
 
 .logo {
-  margin-top: 46px; }
+  margin: 46px 0 75px 0; }
   .logo h1 {
     margin-left: 10px; }
   .logo img {
     height: 29px; }
+
+.hero {
+  position: relative;
+  z-index: 1; }
+  .hero .hero-image {
+    position: absolute;
+    right: 0;
+    z-index: 10; }
+  .hero .welcome-text {
+    margin-top: 188px; }
+    .hero .welcome-text .welcome-button {
+      height: 60px;
+      margin-top: 10px;
+      width: 200px; }
+
+.social-nav .social-info {
+  align-items: center;
+  height: 200px; }
 
 body {
   background-color: #fff; }
@@ -17,5 +35,24 @@ header {
 .logo h1 {
   color: #fff;
   font-family: "Asap", sans-serif;
-  font-size: 26px;
+  font-size: 25px;
   font-style: italic; }
+
+.hero .welcome-text {
+  color: #fff; }
+  .hero .welcome-text .title {
+    font-size: 55px;
+    line-height: 1.25em; }
+  .hero .welcome-text .attribution {
+    font-size: 18px; }
+  .hero .welcome-text .welcome-button {
+    background-color: #49b9e6;
+    color: #fff; }
+    .hero .welcome-text .welcome-button:hover {
+      background-color: #0084b8; }
+
+.social-nav {
+  background-color: #0093ce;
+  color: #fff; }
+  .social-nav .dribbble {
+    font-size: 15px; }

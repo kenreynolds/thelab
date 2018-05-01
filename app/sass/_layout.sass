@@ -2,13 +2,36 @@
 @import "mixins"
 
 header
-    height: 990px
+    height: 788px
 
 .logo
-    margin-top: 46px
+    margin: 46px 0 75px 0
 
     h1
         margin-left: 10px
 
     img
         height: 29px
+
+.hero
+    position: relative
+    z-index: 1
+
+    .hero-image
+        position: absolute
+        right: 0
+        z-index: 10
+
+    .welcome-text
+        margin-top: 188px
+
+        .welcome-button
+            height: 60px
+            margin-top: 10px
+            width: 200px
+
+.social-nav
+
+    .social-info
+        align-items: center
+        height: 200px

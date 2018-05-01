@@ -9,7 +9,7 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('app/css'));
 });
 
-gulp.task('browser-sync', function () {
+gulp.task('browserSync', function () {
     browserSync.init(["app/css/*.css"], {
         server: {
             baseDir: "app"
@@ -17,6 +17,7 @@ gulp.task('browser-sync', function () {
     });
 });
 
-gulp.task('default', ['sass', 'browser-sync'], function () {
+gulp.task('default', ['sass', 'browserSync'], function () {
     gulp.watch("app/sass/*.sass", ['sass']);
+    gulp.watch("app/*.html", browserSync.reload);
 });
